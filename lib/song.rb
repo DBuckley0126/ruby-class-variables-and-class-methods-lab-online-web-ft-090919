@@ -39,7 +39,7 @@ def self.artist_count
     if output_hash.keys.include?(genre)
       output_hash[genre] += 1
     else
-      output_hash[genre] = 0
+      output_hash[genre] = 1
     end
   end
 
